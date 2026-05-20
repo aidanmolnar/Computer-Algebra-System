@@ -1,0 +1,9 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc 210425e44d354ca9ed333c792f8f32fc724266f4003a59ace0da7ac829828a8a # shrinks to p1 = Poly({Mono({Id(Id("x")): 3, Id(Id("y")): 3}): 19, Mono({Id(Id("y")): 2}): -3}), p2 = Poly({Mono({Id(Id("x")): 1}): -1, Mono({Id(Id("y")): 1}): 1}), mut g = Poly({Mono({Id(Id("x")): 4, Id(Id("y")): 1}): 1, Mono({Id(Id("x")): 4}): 32, Mono({Id(Id("x")): 3, Id(Id("y")): 4}): 7, Mono({Id(Id("y")): 3}): -1})
+cc b5688a757d54825740699b5330c7b68924901dbcf99d4250a6af09c51e3ee0ce # shrinks to p1 = Poly({Mono({Id(Id("x")): 2, Id(Id("y")): 2, Id(Id("z")): 2}): 1}), p2 = Poly({Mono({}): 1}), mut g = Poly({Mono({Id(Id("x")): 2, Id(Id("y")): 2, Id(Id("z")): 1}): 1, Mono({Id(Id("x")): 2, Id(Id("y")): 2}): -12, Mono({Id(Id("x")): 2, Id(Id("y")): 1, Id(Id("z")): 1}): 12, Mono({Id(Id("x")): 1, Id(Id("y")): 3, Id(Id("z")): 3}): -41})
+cc 6de4adfdfee303e02912910b76d3fd67f741ddb1b2187a62b96c9f3b4b8155c6 # shrinks to p1 = Poly({Mono({Id(Id("x")): 3, Id(Id("y")): 3}): -1, Mono({}): 2}), p2 = Poly({Mono({}): -1}), mut g = Poly({Mono({Id(Id("x")): 1, Id(Id("y")): 1}): 1, Mono({Id(Id("x")): 1, Id(Id("z")): 1}): 17, Mono({Id(Id("y")): 3}): 41})
